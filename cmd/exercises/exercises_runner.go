@@ -5,6 +5,7 @@ import (
 	"github.com/nimsaysm/masteringGoExercises/internal/chapter01"
 	"github.com/nimsaysm/masteringGoExercises/internal/chapter02"
 	"github.com/nimsaysm/masteringGoExercises/internal/chapter03"
+	"github.com/nimsaysm/masteringGoExercises/internal/chapter04"
 )
 
 func RunExercises() {
@@ -18,6 +19,8 @@ func RunExercises() {
 		chapter02.Runner()
 	case 3:
 		chapter03.Runner()
+	case 4:
+		chapter04.Runner()
 	default:
 		fmt.Println("The chapter does not exist.")
 	}
